@@ -32,9 +32,9 @@ The goal is to identify customers likely to leave the company and provide action
 ## Results
 
 ### Model Performance Summary
-| Model | Accuracy | AUC | F1-Score |
+| Model | Accuracy | AUC | Recall | F1-Score |
 | :--- | :--- | :--- | :--- |
-| **XGBoost** | **[Insert Best Accuracy]** | **[Insert Best AUC]** | **[Insert Best F1]** |
+| **XGBoost** | ** 0.744136** | **0.839979** | 0.791444|**0.621849** |
 | Random Forest | [Insert Accuracy] | [Insert AUC] | [Insert F1] |
 | Logistic Reg. | [Insert Accuracy] | [Insert AUC] | [Insert F1] |
 
