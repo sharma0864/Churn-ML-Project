@@ -36,7 +36,7 @@ The goal is to identify customers likely to leave the company and provide action
 ![ROC Curve](README_Assets/roc-curve.png)
 
 ### Feature Importance
-![Feature Importance](README_Assets/feature-importance-XGBoost.png)
+![Feature Importance](README_Assets/Feature-importance-XGBoost.png)
 
 **Best Model:** XGBoost  
 - High AUC and accuracy  
