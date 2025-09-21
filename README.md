@@ -33,10 +33,11 @@ The goal is to identify customers likely to leave the company and provide action
 
 ### Model Performance Summary
 | Model | Accuracy | AUC | Recall | F1-Score |
-| :--- | :--- | :--- | :--- |
-| **XGBoost** | ** 0.744136** | **0.839979** | 0.791444|**0.621849** |
-| Random Forest | [Insert Accuracy] | [Insert AUC] | | [Insert F1] |
-| Logistic Reg. | [Insert Accuracy] | [Insert AUC] | | [Insert F1] |
+| :--- | :--- | :--- | :--- | :--- |
+| **XGBoost** | **0.744136** | **0.839979** | **0.791444**|**0.621849** |
+| Random Forest | 0.764748	| 0.818987 | 0.641711 |	0.591862 |
+| Logistic Reg. | 0.745558	| 0.823453 | 0.713904 |	0.598655 |
+| Voting Classifier |	0.762615 | 0.835282 | 0.729947 | 0.620455 |
 
 **Best Model:** **XGBoost** - Achieved the highest performance across all key metrics, providing the most reliable predictions for customer churn.
 
