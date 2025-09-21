@@ -74,7 +74,7 @@ The model confirms that **contractual commitment** is the overwhelmingly dominan
 ├── 1_notebooks/                   # All customer data (raw and processed)
 ├── README_Assets                   # Jupyter Notebooks for exploration and modeling
 ├── data/                          # Reusable Python code (e.g., data cleaning functions)
-├── .gitignore/                    # Saved, final trained model files (e.g., XGBoost.pkl)
+├── gitignore/                    # Saved, final trained model files (e.g., XGBoost.pkl)
 ├── License/                    # Images and charts for the README/reports
 ├── README.md/
 └── requirements
