@@ -72,10 +72,10 @@ The model confirms that **contractual commitment** is the overwhelmingly dominan
 ## Folder Structure
 
 .
-├── data/                      # Contains the raw and processed datasets
-├── notebooks/                 # Jupyter notebooks for EDA, modeling, and analysis
-├── src/                       # Python scripts for data processing and model training
-├── assets/                    # Images and charts for the README (this file)
-├── .gitignore                 # Files/folders to be ignored by Git
-├── LICENSE                    # The project's license
-└── README.md                  # The project overview and results (this file)
+├── 1_notebooks/ # Jupyter notebooks for EDA, modeling, and analysis
+├── README_Assets/ # Images and charts for the README
+├── data/ # Contains the raw and processed datasets
+├── .gitignore # Files/folders to be ignored by Git
+├── LICENSE # The project's license
+├── README.md # The project overview and results (this file)
+└── requirements.txt # Python dependencies for the project
