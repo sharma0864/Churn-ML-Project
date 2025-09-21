@@ -29,20 +29,46 @@ The goal is to identify customers likely to leave the company and provide action
 4. **Evaluation** – Metrics used: Accuracy, Precision, Recall, F1-Score, and AUC.  
 
 ---
-
 ## Results
+
+### Model Performance Summary
+| Model | Accuracy | AUC | F1-Score |
+| :--- | :--- | :--- | :--- |
+| **XGBoost** | **[Insert Best Accuracy]** | **[Insert Best AUC]** | **[Insert Best F1]** |
+| Random Forest | [Insert Accuracy] | [Insert AUC] | [Insert F1] |
+| Logistic Reg. | [Insert Accuracy] | [Insert AUC] | [Insert F1] |
+
+**Best Model:** **XGBoost** - Achieved the highest performance across all key metrics, providing the most reliable predictions for customer churn.
 
 ### ROC Curve
 ![ROC Curve](README_Assets/Roc-Curve-Comparison.png)
 
-### Feature Importance
+---
+
+### Feature Importance: Key Drivers of Churn
+
+The XGBoost model's feature importance analysis highlights the most critical factors influencing a customer's likelihood to churn.
+
 ![Feature Importance](README_Assets/Feature-importance-XGBoost.png)
 
-**Best Model:** XGBoost  
-- High AUC and accuracy  
-- Feature importance shows which factors affect churn the most  
+**Top 3 Most Important Features:**
+1.  **Contract_Two year:** The single strongest predictor. Customers committed to a two-year contract are significantly less likely to churn.
+2.  **InternetService_Fiber optic:** This service type is the second most influential factor, indicating that Fiber Optic users are a key segment to monitor.
+3.  **Contract_One year & tenure:** The length of commitment and how long a customer has been with the company are also highly critical.
 
 ---
+
+## Conclusion and Actionable Insights
+
+The model confirms that **contractual commitment** is the overwhelmingly dominant factor in customer retention.
+
+1.  **Focus on Long-Term Contracts:** The highest priority for retention strategy should be encouraging and incentivizing customers to sign **two-year contracts**.
+2.  **Address Fiber Optic Segment:** Further analysis should be performed on **Fiber Optic** customers to understand if their high importance score is due to high loyalty or high frustration (leading to churn).
+3.  **Targeted Campaigns:** Develop early-stage retention programs for customers with **low tenure** or those approaching the end of a **one-year contract**.
+
+---
+
+## Folder Structure
 
 ## Folder Structure
 
