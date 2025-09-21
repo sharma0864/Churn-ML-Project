@@ -39,7 +39,7 @@ The goal is to identify customers likely to leave the company and provide action
 | Logistic Reg. | 0.745558	| 0.823453 | 0.713904 |	0.598655 |
 | Voting Classifier |	0.762615 | 0.835282 | 0.729947 | 0.620455 |
 
-**Best Model:** **XGBoost** - Achieved the highest performance across all key metrics, providing the most reliable predictions for customer churn.
+**Best Model:** **XGBoost** - Rationale: XGBoost offers the highest Recall (identifying 79% of all churners) and the highest AUC. For this project, catching the maximum number of potential churners is the top priority, making XGBoost the most strategic choice, despite Random Forest having the highest overall Accuracy.
 
 ### ROC Curve
 ![ROC Curve](README_Assets/Roc-Curve-Comparison.png)
@@ -70,6 +70,11 @@ The model confirms that **contractual commitment** is the overwhelmingly dominan
 ---
 
 ## Folder Structure
-
-## Folder Structure
-
+.
+├── 1_notebooks/                   # All customer data (raw and processed)
+├── README_Assets                   # Jupyter Notebooks for exploration and modeling
+├── data/                          # Reusable Python code (e.g., data cleaning functions)
+├── .gitignore/                    # Saved, final trained model files (e.g., XGBoost.pkl)
+├── License/                    # Images and charts for the README/reports
+├── README.md/
+|── requirements
