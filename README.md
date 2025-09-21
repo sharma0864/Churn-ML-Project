@@ -70,10 +70,11 @@ The model confirms that **contractual commitment** is the overwhelmingly dominan
 ---
 
 ## Folder Structure
+
 .
-├── data/                      # All customer data (raw and processed)
-├── notebooks/                 # Jupyter Notebooks for exploration and modeling
-├── src/                       # Reusable Python code and scripts
+├── data/                      # Contains the raw and processed datasets
+├── notebooks/                 # Jupyter notebooks for EDA, modeling, and analysis
+├── src/                       # Python scripts for data processing and model training
 ├── assets/                    # Images and charts for the README (this file)
 ├── .gitignore                 # Files/folders to be ignored by Git
 ├── LICENSE                    # The project's license
