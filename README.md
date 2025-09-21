@@ -71,10 +71,10 @@ The model confirms that **contractual commitment** is the overwhelmingly dominan
 
 ## Folder Structure
 .
-├── 1_notebooks/                   # All customer data (raw and processed)
-├── README_Assets                   # Jupyter Notebooks for exploration and modeling
-├── data/                          # Reusable Python code (e.g., data cleaning functions)
-├── gitignore/                    # Saved, final trained model files (e.g., XGBoost.pkl)
-├── License/                    # Images and charts for the README/reports
-├── README.md/
-└── requirements
+├── data/                      # All customer data (raw and processed)
+├── notebooks/                 # Jupyter Notebooks for exploration and modeling
+├── src/                       # Reusable Python code and scripts
+├── assets/                    # Images and charts for the README (this file)
+├── .gitignore                 # Files/folders to be ignored by Git
+├── LICENSE                    # The project's license
+└── README.md                  # The project overview and results (this file)
