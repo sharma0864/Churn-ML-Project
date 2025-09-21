@@ -33,7 +33,7 @@ The goal is to identify customers likely to leave the company and provide action
 ## Results
 
 ### ROC Curve
-![ROC Curve](README_Assets/roc-curve.png)
+![ROC Curve](README_Assets/Roc-Curve-Comparison.png)
 
 ### Feature Importance
 ![Feature Importance](README_Assets/Feature-importance-XGBoost.png)
