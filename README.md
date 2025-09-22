@@ -9,7 +9,7 @@ This project predicts customer churn for a telecommunications company using mach
 
 ## Dataset
 - **Source:** Telco Customer Churn dataset  
-- **Description:** Comprises information about customer demographics, account details, and usage patterns.  
+- **Description:** This dataset comprises information about customer demographics, account details, and usage patterns.  
 - **Preprocessing:**  
   - Handled missing values  
   - Converted categorical variables to numerical  
