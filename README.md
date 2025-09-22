@@ -85,4 +85,4 @@ The model shows that **contractual commitment** is the key factor in customer re
 
 **Tushar**  
 - Email: tusharjan31@gmail.com  
-- GitHub: [sharma0864](https://github.sharma0864)
+- GitHub: [sharma0864](https://github.com/sharma0864)
